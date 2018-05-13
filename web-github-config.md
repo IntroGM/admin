@@ -10,4 +10,5 @@ This course uses several GitHub repositories to manage course materials. A list 
 ## Preparing to build course pages using Sphinx
 We use Sphinx for the course website. With the default Anaconda installation we should be mostly ready to roll, but there are a few installations needed.
 
-1. `conda install -c conda-forge nbsphinx` - Installs the sphinx extension needed to build Jupyter Notebooks 
+1. `conda install -c conda-forge nbsphinx` - Installs the sphinx extension needed to build Jupyter Notebooks
+2. `conda install -c damianavila82 rise` - Installs RISE for converting Jupyter Notebooks to online presentations using reveal.js 
